@@ -7,6 +7,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Scroll = styled(PerfectScrollbar)`
-  height: calc(100% - 65px);
+  max-height: calc(100% - 65px);
   padding: 5px 15px;
 `;
